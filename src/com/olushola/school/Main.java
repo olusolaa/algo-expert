@@ -12,7 +12,6 @@ public class Main {
                     int sum = array[i] + array[j];
                     if (sum == targetSum) return new int[]{array[i], array[j]};
                 }
-
             }
         }
         return new int[0];
